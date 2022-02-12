@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+    background-color: #eee;
+    width: 95%;
+    height: 300px;
+    margin: auto auto;
+    border-top: 4px solid darkorange;
+    border-right: 4px solid darkorange;
+}
+
+.section1 img {
+    position: relative;
+    left: 1000px;
+    top: 30px;
+    border-radius: 5px 5px 5px 5px;
+    border: 8px solid white;
+}
+
+ .section2 {
+    width: 95%;
+    height: 300px;
+    margin: auto auto;
+    border-right: 4px solid darkorange;
+
+}
+.section2 input {
+    position: absolute;
+    left: 880px;
+    margin-top: 12px;
+    padding: 2px 2px;
+
+    }
+
+h1 {
+    font-family: "Comic Sans MS";
+    color: darkorange;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-style: italic;
+}
+.search input {
+    outline: none;
+    border-radius: 7px 7px 7px 7px;
+    border: 1px solid darkorange;
+    text-align: center;
+    width: 10%;
+
+}
+.search {
+    outline-color: darkorange;
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+    margin-right: 120px;
+
+}
+.info {
+    font-family: ;
+    color: darkorange;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.color {
+    font-family: "Comic Sans MS";
+    color: darkorange;
+    font-size: 25px;
+}
+.text {
+    font-family: "Comic Sans MS";
+    color: darkgrey;
+    font-size: 15px;
+}
