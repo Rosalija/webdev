@@ -1,0 +1,117 @@
+* {
+    border-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.nav {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 0 0;
+
+
+}
+
+
+.menu1 {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu0 {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu2 {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #404040;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid #404040;
+}
+
+.nav button {
+    background-color: #0CA6FA;
+    padding: 5px 25px 5px 25px;
+    color: white;
+    border: 1px solid #0CA6FA;
+    border-radius: 4px 4px 4px 4px;
+
+}
+.cnt {
+    height: 100px;
+    width: 350px;
+    margin: 20px auto 25px;
+
+    text-align: center;
+}
+
+.cnt img {
+    max-width: 150%;
+    max-height: 100%;
+}
+
+.search {
+    height: 45px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 25px;
+
+}
+
+.search img {
+    margin: 10px 0 0 0;
+}
+.search  input {
+    position: absolute;
+    height: 20px;
+    width: 370px;
+    margin: 11px 15px;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 17px;
+
+}
+
+.bgl {
+
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #fcfcfc;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+p {
+    font-family: "Lucida Grande";
+    text-align: center;
+}
+
